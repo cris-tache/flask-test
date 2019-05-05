@@ -10,7 +10,7 @@ class StoreModel(db.Model):          # make the class extend the db.Model
     items = db.relationship('ItemModel', lazy='dynamic')
 
     def __init__(self, name):
-        self.name = namea
+        self.name = name
 
     def json(self):
         return {'name': self.name, 'items': [item.json() for item in self.items.all()]}
