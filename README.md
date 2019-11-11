@@ -7,7 +7,7 @@ The API gives access to the items, the stores that contain these items, and prov
 [REST APIs with Flask and Python](https://www.udemy.com/course/rest-api-flask-and-python/)
 
 ## Link to the heroku-app:
-https://dashboard.heroku.com/apps/rest-api-store-management
+https://rest-api-store-management.herokuapp.com/
 
 ## Implementation 
 This project is implemented using Flask and is a REST API for managing a store 
